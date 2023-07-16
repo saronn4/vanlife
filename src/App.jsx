@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { BrowserRouter, Routes , Route , Link } from 'react-router-dom'
+import { HashRouter, Routes , Route , Link } from 'react-router-dom'
 import './App.css'
 import Home from './pages/Home'
 import About from './pages/About'
@@ -23,7 +23,7 @@ function App() {
   return (
     <>
   
-    <BrowserRouter>
+  <HashRouter>
 
     <Routes>
 
@@ -54,7 +54,7 @@ function App() {
       </Route>
 
     </Routes>
-    </BrowserRouter>
+    </HashRouter>
     
     </>
   )
