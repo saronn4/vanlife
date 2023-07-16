@@ -23,6 +23,7 @@ function App() {
   return (
     <>
   
+  <Home/>
   <HashRouter>
 
     <Routes>
